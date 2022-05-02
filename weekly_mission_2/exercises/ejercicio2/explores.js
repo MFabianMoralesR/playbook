@@ -71,5 +71,9 @@ const stackList = explorers.map((explorer) => explorer.stack)
 console.log(stackList)
 
 console.log("Explorers with js stack")
-const explorersJS = explorers.find((explorer) => explorer.stack.includes("js"))
+const explorersJS = explorers.filter((explorer) => explorer.stack.includes("js"))
 console.log(explorersJS)
+
+console.log("Explorers from CDMX")
+const explorersFromCDMX = explorers.filter((explorer) => explorer.city=="CDMX")
+console.log(explorersFromCDMX)
