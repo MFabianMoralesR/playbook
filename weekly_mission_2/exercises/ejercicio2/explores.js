@@ -69,3 +69,7 @@ explorers.forEach(explorer => console.log(`Explorer name: ${explorer.name} - Sta
 console.log("Lista Stack")
 const stackList = explorers.map((explorer) => explorer.stack)
 console.log(stackList)
+
+console.log("Explorers with js stack")
+const explorersJS = explorers.find((explorer) => explorer.stack.includes("js"))
+console.log(explorersJS)
