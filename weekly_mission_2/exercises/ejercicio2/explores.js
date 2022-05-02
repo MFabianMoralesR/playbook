@@ -65,3 +65,7 @@ explorers.forEach(explorer => console.log(explorer.name))
 
 console.log("Stack explorers")
 explorers.forEach(explorer => console.log(`Explorer name: ${explorer.name} - Stack ${explorer.stack}`))
+
+console.log("Lista Stack")
+const stackList = explorers.map((explorer) => explorer.stack)
+console.log(stackList)
