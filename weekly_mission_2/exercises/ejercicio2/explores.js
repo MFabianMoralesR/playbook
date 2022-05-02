@@ -77,3 +77,7 @@ console.log(explorersJS)
 console.log("Explorers from CDMX")
 const explorersFromCDMX = explorers.filter((explorer) => explorer.city=="CDMX")
 console.log(explorersFromCDMX)
+
+console.log("Qty exercises_completed")
+const suma= explorers.reduce((acc, explorer) => acc + explorer.exercises_completed, 0)
+console.log(suma)
