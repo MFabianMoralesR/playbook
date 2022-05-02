@@ -58,3 +58,8 @@ const explorers = [
       }
     }
    ]
+
+
+console.log("Nombre explorers")
+explorers.forEach(explorer => console.log(explorer.name))
+
