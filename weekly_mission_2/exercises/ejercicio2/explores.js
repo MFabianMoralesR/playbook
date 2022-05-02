@@ -81,3 +81,7 @@ console.log(explorersFromCDMX)
 console.log("Qty exercises_completed")
 const suma= explorers.reduce((acc, explorer) => acc + explorer.exercises_completed, 0)
 console.log(suma)
+
+console.log("Someone Completed FrontEnd Exercises?")
+const areSomeTrue = explorers.some((explorer) =>  explorer.missions.frontend.exercisesFinished === true)
+console.log(areSomeTrue)
