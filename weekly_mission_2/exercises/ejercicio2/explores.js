@@ -85,3 +85,7 @@ console.log(suma)
 console.log("Someone Completed FrontEnd Exercises?")
 const areSomeTrue = explorers.some((explorer) =>  explorer.missions.frontend.exercisesFinished === true)
 console.log(areSomeTrue)
+
+console.log("Everyone Finished Onboarding?")
+const areEveryTrue = explorers.every((explorer) =>  explorer.missions.onboarding.isFinished === true)
+console.log(areEveryTrue)
